@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xinema - Yours lil paradise</title>
+    <link rel="stylesheet" href="../output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="../img/xinemaIcon.png" />
+    <!-- sc font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ff font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .sc {
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .ff {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <header class="flex justify-between bg-black text-white p-6 text-2xl">
+      <div
+        class="sc flex items-center justify-center text-center cursor-pointer md:mx-3 text-2xl md:text-4xl"
+      >
+        <span class="text-red-600">XIN</span>EMA
+      </div>
+
+      <div class="flex items-center justify-center">
+        <input
+          type="text"
+          class="w-full hover:border-red-600 duration-500 ease-in-out bg-black p-2 md:pr-16 text-white border text-sm rounded-[10px] shadow-sm focus:outline-none focus:border-red-600 focus:ring-1 focus:ring-red-600"
+          placeholder="Type here to search "
+        />
+      </div>
+
+      <div class="ff hidden md:flex space-x-6 mx-3 md:items-center">
+        <a
+          href="#"
+          class="cursor-pointer hover:text-red-600 hover:underline underline-offset-4 duration-500 ease-in-out"
+        >
+          HOME
+        </a>
+        <a
+          href="#"
+          class="cursor-pointer hover:text-red-600 hover:underline underline-offset-4 duration-500 ease-in-out"
+        >
+          REVIEWS
+        </a>
+        <a
+          href="#"
+          class="cursor-pointer hover:text-red-600 hover:underline underline-offset-4 duration-500 ease-in-out"
+        >
+          MORE
+        </a>
+        <a
+          href="#"
+          class="cursor-pointer hover:text-red-600 hover:underline underline-offset-4 duration-500 ease-in-out"
+        >
+          SUPPORT
+        </a>
+      </div>
+
+      <button
+        id="menu-btn"
+        class="hover:text-red-600 duration-300 ease-in-out md:hidden flex"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-9"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+          />
+        </svg>
+      </button>
+    </header>
+
+    <nav id="drop-nav" class="hidden bg-black text-white text-2xl">
+      <div class="ff flex flex-col items-center space-y-4 p-4 mx-3">
+        <a
+          href="#"
+          class="cursor-pointer hover:underline underline-offset-4 hover:text-red-600 duration-500 ease-in-out"
+        >
+          HOME
+        </a>
+        <a
+          href="#"
+          class="cursor-pointer hover:underline underline-offset-4 hover:text-red-600 duration-500 ease-in-out"
+        >
+          REVIEWS
+        </a>
+        <a
+          href="#"
+          class="cursor-pointer hover:underline underline-offset-4 hover:text-red-600 duration-500 ease-in-out"
+        >
+          MORE
+        </a>
+        <a
+          href="#"
+          class="cursor-pointer hover:underline underline-offset-4 hover:text-red-600 duration-500 ease-in-out"
+        >
+          SUPPORT
+        </a>
+      </div>
+    </nav>
+
+    <div class="CV">
+      <img src="../img/xinematextcv.png" alt="" />
+    </div>
+
+    <main class="w-full mx-auto">
+      <div
+        class="w-[90%] min-h-screen mx-auto grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-16 mt-10 text-white sc"
+      >
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/esotsm.png" alt="" />
+          <p class="text-center text-xl truncate">
+            Eternal sunshine of the spotless mind
+          </p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              8.3
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 8.6
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/grandBudapest.png" alt="" />
+          <p class="text-center text-xl">The Grand Budapest Hotel</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              8.1
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 8.3
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/lalaland.png" alt="" />
+          <p class="text-center text-xl">La La Land</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              8
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.8
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/summer.png" alt="" />
+          <p class="text-center text-xl">500 days of summer</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.7
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 8.8
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/poorThing.png" alt="" />
+          <p class="text-center text-xl">Poor Thing</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.9
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.6
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/greatGabsty.png" alt="" />
+          <p class="text-center text-xl">The Great Gabsty</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.2
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.6
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/turmanShow.png" alt="" />
+          <p class="text-center text-xl">The Turman Show</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              8.2
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 8.6
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/faultinourStar.png" alt="" />
+          <p class="text-center text-xl">The fault in our star</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.7
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.6
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/meBeforeU.png" alt="" />
+          <p class="text-center text-xl">Me before you</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.4
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.7
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/alltheBright.png" alt="" />
+          <p class="text-center text-xl">All the bright place</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              6.6
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.0
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/her.png" alt="" />
+          <p class="text-center text-xl">Her</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              8.0
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 8.1
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/locoricePizza.png" alt="" />
+          <p class="text-center text-xl">Licorice Pizza</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.1
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 6.8
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/marriageStory.png" alt="" />
+          <p class="text-center text-xl">Marriage Story</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.9
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.8
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/MbytheSea.png" alt="" />
+          <p class="text-center text-xl">Manchester by the sea</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.8
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.5
+            </p>
+          </div>
+        </div>
+        <div class="col-span-1 hover:scale-110 duration-500 ease-in-out">
+          <img src="../img/nomadland.png" alt="" />
+          <p class="text-center text-xl">Nomadland</p>
+          <div class="flex justify-between cursor-pointer">
+            <p class="ff">
+              <span class="bg-[#F5C518] rounded-sm px-1 text-black">IMDb</span>
+              7.3
+            </p>
+            <p class="">
+              <span class="bg-red-600 rounded-sm px-3">XIN</span> 7.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="ff cursor-pointer w-full h-[150px] mt-8 bg-red-600 flex items-center justify-center"
+    >
+      <div>
+        <h1 class="text-3xl">Watch movies with your heart, not with eyes.</h1>
+        <p class="text-center p-2">
+          Copyright to MinHeinHtut (Founder of Xinema)
+        </p>
+        <p class="text-center text-xl">
+          You have to get lost before you find yourself
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    const btn = document.getElementById("menu-btn");
+    const nav = document.getElementById("drop-nav");
+
+    btn.addEventListener("click", () => {
+      nav.classList.toggle("hidden");
+    });
+  </script>
+</html>
